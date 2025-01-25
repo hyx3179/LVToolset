@@ -13,46 +13,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Events for UI Actors" Type="Folder">
-			<Item Name="Add RefNum to Actor Data" Type="Folder">
-				<Item Name="Add RefNum to Actor Data.ctl" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Add RefNum to Actor Data.ctl"/>
-				<Item Name="Add RefNum to Actor Data.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Add RefNum to Actor Data.vi"/>
-				<Item Name="Create RefNum and Add to Cluster.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Create RefNum and Add to Cluster.vi"/>
-				<Item Name="Execute Add RefNum to Actor Data.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Execute Add RefNum to Actor Data.vi"/>
-				<Item Name="Move Labels.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Move Labels.vi"/>
-				<Item Name="Open or create RefNum Cluster in Class.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Open or create RefNum Cluster in Class.vi"/>
-				<Item Name="Wire RefNum to BBN.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Wire RefNum to BBN.vi"/>
-			</Item>
-			<Item Name="Create Actor from Template" Type="Folder">
-				<Item Name="_UI Template with RefNums" Type="Folder">
-					<Item Name="UI Template with RefNums.lvclass" Type="LVClass" URL="../Events for UI Actors/Create Actor from Template/_UI Template with RefNums/UI Template with RefNums.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Events for UI Actor Indicators" Type="Folder">
-				<Item Name="Events for UI Actor Indicators.ctl" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators/Events for UI Actor Indicators.ctl"/>
-				<Item Name="Events for UI Actor Indicators.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators/Events for UI Actor Indicators.vi"/>
-				<Item Name="Execute Events for UI Actor Indicators.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators/Execute Events for UI Actor Indicators.vi"/>
-			</Item>
-			<Item Name="Events for UI Actor Indicators Support" Type="Folder">
-				<Item Name="Add UI Actor Event.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators Support/Add UI Actor Event.vi"/>
-				<Item Name="Constants.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators Support/Constants.vi"/>
-			</Item>
-			<Item Name="Create Actor from Template.vi" Type="VI" URL="../Events for UI Actors/Create Actor from Template.vi"/>
+		<Item Name="Events for UI Actors" Type="Folder" URL="../Events for UI Actors">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Shortcut Menu Plug-In" Type="Folder">
-			<Item Name="Locate in Project" Type="Folder">
-				<Item Name="Execute Locate in Project.vi" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project/Execute Locate in Project.vi"/>
-				<Item Name="Locate in Project.ctl" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project/Locate in Project.ctl"/>
-				<Item Name="Locate in Project.vi" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project/Locate in Project.vi"/>
-			</Item>
-			<Item Name="Open Message Handler" Type="Folder">
-				<Item Name="Check_for_Do.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Check_for_Do.vi"/>
-				<Item Name="Check_for_Enqueuer.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Check_for_Enqueuer.vi"/>
-				<Item Name="Check_for_Message_Parent.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Check_for_Message_Parent.vi"/>
-				<Item Name="Execute Open Message Handler.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Execute Open Message Handler.vi"/>
-				<Item Name="Open Message Handler.ctl" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Open Message Handler.ctl"/>
-				<Item Name="Open Message Handler.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Open Message Handler.vi"/>
-			</Item>
+		<Item Name="Shortcut Menu Plug-In" Type="Folder" URL="../Shortcut Menu Plug-In">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
