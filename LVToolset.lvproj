@@ -15,13 +15,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Events for UI Actors" Type="Folder">
 			<Item Name="Add RefNum to Actor Data" Type="Folder">
-				<Item Name="Add RefNum to Actor Data.ctl" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Add RefNum to Actor Data.ctl"/>
-				<Item Name="Add RefNum to Actor Data.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Add RefNum to Actor Data.vi"/>
-				<Item Name="Create RefNum and Add to Cluster.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Create RefNum and Add to Cluster.vi"/>
-				<Item Name="Execute Add RefNum to Actor Data.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Execute Add RefNum to Actor Data.vi"/>
-				<Item Name="Move Labels.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Move Labels.vi"/>
-				<Item Name="Open or create RefNum Cluster in Class.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Open or create RefNum Cluster in Class.vi"/>
-				<Item Name="Wire RefNum to BBN.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data.llb/Wire RefNum to BBN.vi"/>
+				<Item Name="Add RefNum to Actor Data.ctl" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Add RefNum to Actor Data.ctl"/>
+				<Item Name="Add RefNum to Actor Data.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Add RefNum to Actor Data.vi"/>
+				<Item Name="Create RefNum and Add to Cluster.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Create RefNum and Add to Cluster.vi"/>
+				<Item Name="Execute Add RefNum to Actor Data.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Execute Add RefNum to Actor Data.vi"/>
+				<Item Name="Move Labels.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Move Labels.vi"/>
+				<Item Name="Open or create RefNum Cluster in Class.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Open or create RefNum Cluster in Class.vi"/>
+				<Item Name="Wire RefNum to BBN.vi" Type="VI" URL="../Events for UI Actors/Add RefNum to Actor Data/Wire RefNum to BBN.vi"/>
 			</Item>
 			<Item Name="Create Actor from Template" Type="Folder">
 				<Item Name="_UI Template with RefNums" Type="Folder">
@@ -29,9 +29,9 @@
 				</Item>
 			</Item>
 			<Item Name="Events for UI Actor Indicators" Type="Folder">
-				<Item Name="Events for UI Actor Indicators.ctl" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators.llb/Events for UI Actor Indicators.ctl"/>
-				<Item Name="Events for UI Actor Indicators.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators.llb/Events for UI Actor Indicators.vi"/>
-				<Item Name="Execute Events for UI Actor Indicators.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators.llb/Execute Events for UI Actor Indicators.vi"/>
+				<Item Name="Events for UI Actor Indicators.ctl" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators/Events for UI Actor Indicators.ctl"/>
+				<Item Name="Events for UI Actor Indicators.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators/Events for UI Actor Indicators.vi"/>
+				<Item Name="Execute Events for UI Actor Indicators.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators/Execute Events for UI Actor Indicators.vi"/>
 			</Item>
 			<Item Name="Events for UI Actor Indicators Support" Type="Folder">
 				<Item Name="Add UI Actor Event.vi" Type="VI" URL="../Events for UI Actors/Events for UI Actor Indicators Support/Add UI Actor Event.vi"/>
@@ -41,17 +41,17 @@
 		</Item>
 		<Item Name="Shortcut Menu Plug-In" Type="Folder">
 			<Item Name="Locate in Project" Type="Folder">
-				<Item Name="Execute Locate in Project.vi" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project.llb/Execute Locate in Project.vi"/>
-				<Item Name="Locate in Project.ctl" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project.llb/Locate in Project.ctl"/>
-				<Item Name="Locate in Project.vi" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project.llb/Locate in Project.vi"/>
+				<Item Name="Execute Locate in Project.vi" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project/Execute Locate in Project.vi"/>
+				<Item Name="Locate in Project.ctl" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project/Locate in Project.ctl"/>
+				<Item Name="Locate in Project.vi" Type="VI" URL="../Shortcut Menu Plug-In/Locate in Project/Locate in Project.vi"/>
 			</Item>
 			<Item Name="Open Message Handler" Type="Folder">
-				<Item Name="Check_for_Do.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler.llb/Check_for_Do.vi"/>
-				<Item Name="Check_for_Enqueuer.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler.llb/Check_for_Enqueuer.vi"/>
-				<Item Name="Check_for_Message_Parent.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler.llb/Check_for_Message_Parent.vi"/>
-				<Item Name="Execute Open Message Handler.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler.llb/Execute Open Message Handler.vi"/>
-				<Item Name="Open Message Handler.ctl" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler.llb/Open Message Handler.ctl"/>
-				<Item Name="Open Message Handler.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler.llb/Open Message Handler.vi"/>
+				<Item Name="Check_for_Do.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Check_for_Do.vi"/>
+				<Item Name="Check_for_Enqueuer.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Check_for_Enqueuer.vi"/>
+				<Item Name="Check_for_Message_Parent.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Check_for_Message_Parent.vi"/>
+				<Item Name="Execute Open Message Handler.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Execute Open Message Handler.vi"/>
+				<Item Name="Open Message Handler.ctl" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Open Message Handler.ctl"/>
+				<Item Name="Open Message Handler.vi" Type="VI" URL="../Shortcut Menu Plug-In/Open Message Handler/Open Message Handler.vi"/>
 			</Item>
 		</Item>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -186,7 +186,7 @@
 			<Item Name="Add Actor.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddActor/Add Actor.lvlib"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="AFPP Shared.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/AFPP Shared/AFPP Shared.lvlib"/>
-			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Checkmark Status.ctl"/>
+			<Item Name="Checkmark Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/Support/Checkmark Status.ctl"/>
 			<Item Name="CLSUIP_ClearBlockDiagram_BuildDontDeleteList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/NewAccessors/CLSUIP_ClearBlockDiagram_BuildDontDeleteList.vi"/>
 			<Item Name="CLSUIP_CopyVIProjectItemHierarchy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/NewAccessors/VIRetooler/CLSUIP_CopyVIProjectItemHierarchy.vi"/>
 			<Item Name="CLSUIP_GetApplicationOfClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetApplicationOfClass.vi"/>
@@ -195,7 +195,7 @@
 			<Item Name="Custom User Scripting For New MultiDim Array Element Accessor VI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/NewAccessors/MultiDimArrElemScripter/Custom User Scripting For New MultiDim Array Element Accessor VI.vi"/>
 			<Item Name="Custom User Scripting For New Override VI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/NewAccessors/OverrideRetooler/Custom User Scripting For New Override VI.vi"/>
 			<Item Name="Custom User Scripting For New Simple Accessor VI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/NewAccessors/BaseAccessorScripter/Custom User Scripting For New Simple Accessor VI.vi"/>
-			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Enabled Menu Item Status.ctl"/>
+			<Item Name="Enabled Menu Item Status.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/Support/Enabled Menu Item Status.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="LIBUIP_FindVIProjectItemInLibrary.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/VILibrary/LIBUIP_FindVIProjectItemInLibrary.vi"/>
@@ -224,13 +224,13 @@
 			<Item Name="mxLvGetTarget.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetTarget.vi"/>
 			<Item Name="mxLvNIIM.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvNIIM.ctl"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
-			<Item Name="Position In Menu.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Position In Menu.ctl"/>
-			<Item Name="Relative Position.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Relative Position.ctl"/>
-			<Item Name="Shortcut Menu Item Definition.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Shortcut Menu Item Definition.ctl"/>
+			<Item Name="Position In Menu.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/Support/Position In Menu.ctl"/>
+			<Item Name="Relative Position.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/Support/Relative Position.ctl"/>
+			<Item Name="Shortcut Menu Item Definition.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/Support/Shortcut Menu Item Definition.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/support/Transaction Control.ctl"/>
+			<Item Name="Transaction Control.ctl" Type="VI" URL="/&lt;resource&gt;/plugins/PopupMenus/Support/Transaction Control.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
