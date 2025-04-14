@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-25 02:36:51" Modified_Date="2025-03-12 16:03:37" Creator="hyx3179" Comments="" ID="7715186a8154157b53e0a892dee0e0d9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-25 02:36:51" Modified_Date="2025-04-14 12:47:22" Creator="hyx3179" Comments="" ID="11f59d48436aeccda1ddec40c69fee0c">
   <Library_General_Settings>
     <Package_File_Name>hyx3179_lib_LVToolset</Package_File_Name>
-    <Library_Version>1.1.0.10</Library_Version>
+    <Library_Version>1.1.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>builds</Library_Output_Folder>
@@ -288,7 +288,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>vi.lib\ModbusCRC16.vi</Path>
@@ -302,13 +302,27 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>vi.lib\Ping - .NET.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC7CD66EBBD8E67A7429F1B91BE0AC23</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>File Size.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>vi.lib\File Size.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>364F621A621991D73C9F5E36624014EF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
