@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-25 02:36:51" Modified_Date="2025-05-25 02:16:39" Creator="hyx3179" Comments="" ID="d20541377b41fd0c21b8f93e0b0c9ee2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-25 02:36:51" Modified_Date="2025-05-25 03:46:34" Creator="hyx3179" Comments="" ID="2158b01e2e9a5df5a61f412877aa11d4">
   <Library_General_Settings>
     <Package_File_Name>hyx3179_lib_LVToolset</Package_File_Name>
-    <Library_Version>1.1.0.19</Library_Version>
+    <Library_Version>1.2.0.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>builds</Library_Output_Folder>
@@ -117,21 +117,21 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Events for UI Actors/Add RefNum to Actor Data.llb</Path>
+        <Path>Tools Menu</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Shortcut Menu Plug-In</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Events for UI Actors/Events for UI Actor Indicators.llb</Path>
+        <Path>Events for UI Actors</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>Events for UI Actors/Create Actor from Template</Path>
-        <Destination>7</Destination>
-        <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
@@ -141,28 +141,40 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Shortcut Menu Plug-In/Locate in Project.llb</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
+        <Path>Events for UI Actors/Create Actor from Template</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Shortcut Menu Plug-In/Open Message Handler.llb</Path>
+        <Path>vi.lib/Timer</Path>
         <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Tools Menu/Screen Tools.vi</Path>
+        <Path>vi.lib/zstd</Path>
         <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>1</Additional_Destination_Index>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Tools Menu/VI Tools.vi</Path>
+        <Path>vi.lib/File Size.vi</Path>
         <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>1</Additional_Destination_Index>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>vi.lib/ModbusCRC16.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>vi.lib/Ping - .NET.vi</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
@@ -197,6 +209,18 @@
       </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Tools Menu</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>vi.lib</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Shortcut Menu Plug-In</Path>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Events for UI Actors</Path>
       </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -354,7 +378,7 @@
         <Path>ZSTD</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B8EA232A20B0BB73649288C19EB6FA3</GUID>
+      <GUID>68B00A454314CF0F2BA4642E2903714E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -417,7 +441,7 @@
         <Path>vi.lib\zstd\Get Version.vi</Path>
         <VI_Title>ZSTD_versionString</VI_Title>
       </Items_Data>
-      <GUID>1845A63CACA49C80D35F5CB3365A0A92</GUID>
+      <GUID>5EC5C440CE5C05363100A0D7287D7ED7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
