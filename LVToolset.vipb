@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-25 02:36:51" Modified_Date="2025-04-14 12:47:22" Creator="hyx3179" Comments="" ID="11f59d48436aeccda1ddec40c69fee0c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-11-25 02:36:51" Modified_Date="2025-05-25 02:16:39" Creator="hyx3179" Comments="" ID="d20541377b41fd0c21b8f93e0b0c9ee2">
   <Library_General_Settings>
     <Package_File_Name>hyx3179_lib_LVToolset</Package_File_Name>
-    <Library_Version>1.1.0.11</Library_Version>
+    <Library_Version>1.1.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>builds</Library_Output_Folder>
@@ -18,6 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>events_for_ui_actor_indicators &gt;=1.0.0.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_monitored_actor &gt;=2.0.0.23</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -189,7 +190,10 @@
         <Path>Tools</Path>
       </Exclusions>
       <Compile_Exclusions>
-        <Path>Events for UI Actors/Events for UI Actor Indicators.llb</Path>
+        <Path>Events for UI Actors/Create Actor from Template.vi</Path>
+      </Compile_Exclusions>
+      <Compile_Exclusions>
+        <Path>Events for UI Actors/Create Actor from Template</Path>
       </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
