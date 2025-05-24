@@ -322,7 +322,21 @@
         <Path>vi.lib\File Size.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>364F621A621991D73C9F5E36624014EF</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Timer.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>vi.lib\Timer\Timer.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>899C070183B3AD2A79F80C418C84448B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
